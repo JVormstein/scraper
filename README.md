@@ -9,7 +9,7 @@ More information can be found in the
 [documentation](http://oeda-scraper.readthedocs.org/en/latest/).
 
 
-###Installation
+### Installation
 
 You should probably create a [virtual environment](http://www.virtualenv.org/en/latest/), but
 in any event doing `pip install -r requirements.txt` should do the trick. You
@@ -29,7 +29,7 @@ To interface with Mongo, enter `mongo` at the command line. From inside Mongo, t
 Enter the database with `use event_scrape` and type `show collections` to make sure there's a `stories` collection. 
  `db.stories.find()` will show you the first 20 entries.
 
-###Running
+### Running
 
 After everything is installed, it's as simple as `python scraper.py`. That is
 assuming, of course, that you wish to use the configuration seen in the
@@ -39,7 +39,7 @@ and `local`. It is possible to specify any combination of those source types,
 with the source types separated by commas in the config file. For more
 information on the source types, see the **Contributing** section below.
 
-###Contributing
+### Contributing
 
 More RSS feeds are always useful. If there's something specific you want to
 see, just add it in and open a pull request with the source's raw XML RSS feed,
